@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseACabeca", "UseACabeca\Us
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseACabeca.Comportamentais", "UseACabeca.Comportamentais\UseACabeca.Comportamentais.csproj", "{1ED6EC01-760C-4137-877B-B2025F134721}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseACabeca.Criacao", "UseACabeca.Criacao\UseACabeca.Criacao.csproj", "{947A4C8E-1543-410A-9E11-479329D01C48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1ED6EC01-760C-4137-877B-B2025F134721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED6EC01-760C-4137-877B-B2025F134721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED6EC01-760C-4137-877B-B2025F134721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947A4C8E-1543-410A-9E11-479329D01C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947A4C8E-1543-410A-9E11-479329D01C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947A4C8E-1543-410A-9E11-479329D01C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947A4C8E-1543-410A-9E11-479329D01C48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

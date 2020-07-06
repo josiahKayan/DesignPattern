@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using UseACabeca.Comportamentais.Observer;
+using UseACabeca.Criacao.Singleton;
 
 namespace UseACabeca.Controllers
 {
@@ -28,7 +29,9 @@ namespace UseACabeca.Controllers
         public int Get()
         {
 
-            ExecutaObserver.Executa();
+            //ExecutaObserver.Executa();
+
+            ExecutaSingleton.Executa();
 
             return 1;
         }

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UseACabeca.Comportamentais\UseACabeca.Comportamentais.csproj" />
+    <ProjectReference Include="..\UseACabeca.Criacao\UseACabeca.Criacao.csproj" />
   </ItemGroup>
 
 

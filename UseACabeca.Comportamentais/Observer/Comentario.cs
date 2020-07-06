@@ -10,8 +10,5 @@ namespace UseACabeca.Comportamentais.Observer
         public string Apelido { get; set; }
 
         public string Mensagem { get; set; }
-
-
-
     }
 }

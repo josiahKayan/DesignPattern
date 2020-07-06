@@ -8,7 +8,8 @@ namespace UseACabeca.Comportamentais.Observer
     {
 
         // O Padrão Observer
-
+        //Atualizam os obervadores usando uma interface em comum.
+        //Neste exemplo, utilizou-se:  
 
         public static void Executa()
         {

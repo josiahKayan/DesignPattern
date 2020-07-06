@@ -9,15 +9,14 @@ namespace UseACabeca.Comportamentais.Observer
     public class TimeLine : ISubject
     {
         public IList<IObserver> observers;
-        //private string NovoComentario {get;set;}
 
         private Comentario comentario { get; set; }
 
         public TimeLine()
         {
             observers = new List<IObserver>();
+        
             comentario = new Comentario();
-
             comentario.Mensagem = "";
             comentario.Apelido = "";
         }
@@ -33,9 +32,6 @@ namespace UseACabeca.Comportamentais.Observer
             {
                 item.Update(comentario);
             }
-
-            //var obs = observers.Where( o => o.   )
-
         }
 
         public void removeObserver(IObserver observer)
@@ -46,9 +42,6 @@ namespace UseACabeca.Comportamentais.Observer
     
         public void setComentario(Comentario comentario)
         {
-
-            
-
             if (comentario.Mensagem == this.comentario.Mensagem && comentario.Apelido == this.comentario.Apelido)
             {
                 return;
@@ -57,7 +50,6 @@ namespace UseACabeca.Comportamentais.Observer
             this.comentario.Mensagem = comentario.Mensagem;
             this.comentario.Apelido = comentario.Apelido;
             notifyObservers();
-
         }
 
 }
